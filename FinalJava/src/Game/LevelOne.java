@@ -41,6 +41,7 @@ public class LevelOne {
        		  		+ "\njail for the rest of your life.",
        		  		"An Evil Box",
        		  		JOptionPane.ERROR_MESSAGE);
+       		  
        	  }
        	  else
        	  {
@@ -58,6 +59,7 @@ public class LevelOne {
            		  		+ "\njail for the rest of your life. ",
            		  		"An Evil Box",
            		  		JOptionPane.ERROR_MESSAGE);
+        		LevelTwo.LevelTwo(chipChoice);
         	}
         	else
         	{
