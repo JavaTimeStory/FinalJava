@@ -24,7 +24,7 @@ public class LevelFour {
         {
         	Object[] option2 = {"Food store", "Auto store"};
         	JOptionPane.showMessageDialog(null, "You get a job and buy the parts, "
-        			+ "\n your already in enough trouble");
+        			+ "\n your already going to be in enough trouble");
         	JOptionPane.showOptionDialog(null, "Where should you work?",
         			"A questioning box",
         			JOptionPane.YES_NO_OPTION, E, null, option2, option2);
