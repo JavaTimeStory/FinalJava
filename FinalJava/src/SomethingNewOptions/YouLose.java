@@ -15,22 +15,26 @@ public class YouLose extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 public YouLose() {
-    getContentPane().add(new DrawingCanvas());
+    getContentPane().add(new SomethingNewOptions());
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setSize(500, 500);
     setVisible(true);
   }
 
   public static void main(String arg[]) {
-    new TheEndFriends();
+    new YouLose();
   }
 }
 
-class DrawingCanvas extends JPanel {
-  Font font = new Font("Dialog", Font.ROMAN_BASELINE, 40);
+class SomethingNewOptions extends JPanel {
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+Font font = new Font("Dialog", Font.ROMAN_BASELINE, 40);
   FontMetrics fontMetrics;
   
-  DrawingCanvas() {
+  SomethingNewOptions() {
     setSize(700, 800);
 
     fontMetrics = getFontMetrics(font);
