@@ -47,6 +47,7 @@ public class LevelTwo {
 					+ "\n bee poison.",
 					"Death box",
 					JOptionPane.ERROR_MESSAGE);
+			System.exit(0);
 		}
 		else
 		{

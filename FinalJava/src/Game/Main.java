@@ -7,6 +7,7 @@ public class Main {
         LevelOne.LevelOne();
         LevelThree.LevelThree();
         LevelFour.LevelFour();
+        LevelFive.LevelFive();
   	}
 
 }

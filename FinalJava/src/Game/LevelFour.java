@@ -22,8 +22,20 @@ public class LevelFour {
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
         if (E == 1)
         {
-        	JOptionPane.showMessageDialog(null, "");
+        	Object[] option2 = {"Food store", "Auto store"};
+        	JOptionPane.showMessageDialog(null, "You get a job and buy the parts, "
+        			+ "\n your already going to be in enough trouble");
+        	JOptionPane.showOptionDialog(null, "Where should you work?",
+        			"A questioning box",
+        			JOptionPane.YES_NO_OPTION, E, null, option2, option2);
         }
+        else
+        {
+        	JOptionPane.showMessageDialog(null, "You decide to steal the parts, "
+        			+ "\n your already on the crime path");
+        }
+        JOptionPane.showMessageDialog(null, "You eventually get all the parts through "
+        		+ "\n questionable means as some were illegal");
 	}
 
 }
