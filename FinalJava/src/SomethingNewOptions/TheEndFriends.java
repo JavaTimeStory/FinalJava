@@ -9,8 +9,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class TheEndFriends extends JFrame {
-  public TheEndFriends() {
-    getContentPane().add(new DrawingCanvas());
+ 
+	private static final long serialVersionUID = 1L;
+
+public TheEndFriends() {
+    getContentPane().add(new TheEndFriend());
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setSize(500, 500);
     setVisible(true);
@@ -21,11 +24,13 @@ public class TheEndFriends extends JFrame {
   }
 }
 
-class DrawingCanvas extends JPanel {
-  Font font = new Font("Dialog", Font.ITALIC, 40);
+class TheEndFriend extends JPanel {
+ 
+	private static final long serialVersionUID = 1L;
+Font font = new Font("Dialog", Font.ITALIC, 40);
   FontMetrics fontMetrics;
   
-  DrawingCanvas() {
+  TheEndFriend() {
     setSize(700, 800);
 
     fontMetrics = getFontMetrics(font);
@@ -33,11 +38,10 @@ class DrawingCanvas extends JPanel {
 
   public void paint(Graphics g) {
     Graphics2D g2D = (Graphics2D) g;
-    int w = getSize().width;
-    int h = getSize().height;
+
 
     g2D.setFont(font);
-    GradientPaint gp = new GradientPaint( 30.0f, 50.0f, Color.green,  fontMetrics.stringWidth("The End....Friends"), fontMetrics.getHeight(),Color.red);             
+    GradientPaint gp = new GradientPaint( 30.0f, 50.0f, Color.green,  fontMetrics.stringWidth("The End....Friends"), fontMetrics.getHeight(),Color.black);             
     g2D.setPaint(gp);
     g2D.drawString("The End....Friends", 2,200);                                                 
 
