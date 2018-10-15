@@ -7,7 +7,7 @@ public class LevelTwo {
 
 	private static final Object[] SecontOP = null;
 
-	public static void LevelTwo(String chip) 
+	public static void LevelTwo() 
 	{
 		
 		Object[] options = {"Run in and murder them all!", 
@@ -28,17 +28,18 @@ public class LevelTwo {
 			JOptionPane.showMessageDialog(null, "You failed. \r\n" + 
 					"Your mom walked in and found you with a knife in your hand over the girls dead bodies.\r\n" + 
 					"Go to jail.");
-			System.exit(0);
+     		  SomethingNewOptions.YouLose.lose();
+     		  Main.main(null);
 		}
 		else
 		{
 			Object[] optionsTwo = {"Get up and pistol whip them all in the face.", 
 					"Yes I'm fine Kat thanks for asking"};
-		int SecondOP = JOptionPane.showOptionDialog(null, "Eat your " + chip + " while everyone is having "
+		int SecondOP = JOptionPane.showOptionDialog(null, "Eat your snack while everyone is having "
 							+ "\n an amazing time and you are loathing in self hatred and hatred for them. Kat asks "
 							+ "\n you if your okay (even though shes the cause of why you are upset) "
 							+ "\n What do you say?",
-							chip, JOptionPane.YES_NO_OPTION,
+							 null, JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE, null, optionsTwo, optionsTwo);
 		if(SecondOP == JOptionPane.YES_OPTION)
 		{
@@ -47,7 +48,8 @@ public class LevelTwo {
 					+ "\n bee poison.",
 					"Death box",
 					JOptionPane.ERROR_MESSAGE);
-			System.exit(0);
+     		  SomethingNewOptions.YouLose.lose();
+     		  Main.main(null);
 		}
 		else
 		{

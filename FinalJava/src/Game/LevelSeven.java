@@ -18,11 +18,12 @@ public class LevelSeven {
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
         if (FinalChoice == JOptionPane.YES_OPTION)
         {
+        	SomethingNewOptions.TheEndFriends.End();
         	Main.main(null);
         }
         else
         {
-        	System.exit(0);
+     		  System.exit(0);
         }
 	}
 

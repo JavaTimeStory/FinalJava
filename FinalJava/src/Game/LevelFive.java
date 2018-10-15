@@ -22,7 +22,8 @@ public class LevelFive {
         {
         	JOptionPane.showMessageDialog(null, "It blows up in your face but oddly enough your"
         			+ "\n Alive but you find time frozen, your left in this frozen time forever");
-        	System.exit(0);
+     		  SomethingNewOptions.YouLose.lose();
+     		 Main.main(null);
         }
 	}
 

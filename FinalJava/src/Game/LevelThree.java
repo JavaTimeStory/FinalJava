@@ -18,7 +18,8 @@ public class LevelThree {
         else 
         {
         	JOptionPane.showMessageDialog(null, "Wrong, You are a time traveler, Bye");
-        	System.exit(0);
+     		  SomethingNewOptions.YouLose.lose();
+     		  Main.main(null);
         }
 	}
 
