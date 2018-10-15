@@ -47,7 +47,7 @@ Font font = new Font("Dialog", Font.ROMAN_BASELINE, 40);
     g2D.setFont(font);
     GradientPaint gp = new GradientPaint( 30.0f, 50.0f, Color.black,  fontMetrics.stringWidth("Bye Bye...You Lose:)"), fontMetrics.getHeight(),Color.red);             
     g2D.setPaint(gp);
-    g2D.drawString("ByeBye...You Lose:)", 2,200);                                                 
+    g2D.drawString("Bye Bye...You Lose:)", 2,200);                                                 
 
 
   }
