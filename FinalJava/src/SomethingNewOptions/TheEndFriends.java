@@ -19,7 +19,7 @@ public TheEndFriends() {
     setVisible(true);
   }
 
-  public static void main(String arg[]) {
+  public static void End() {
     new TheEndFriends();
   }
 }
