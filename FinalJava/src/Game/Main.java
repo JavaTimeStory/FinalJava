@@ -1,5 +1,7 @@
 package Game;
 
+import javax.swing.JOptionPane;
+
 public class Main {
 
 	public static void main(String[] args) 
@@ -7,6 +9,9 @@ public class Main {
         LevelOne.LevelOne();
         LevelThree.LevelThree();
         LevelFour.LevelFour();
+        LevelFive.LevelFive();
+        LevelSix.LevelSix();
+        LevelSeven.LevelSeven();
   	}
 
 }
