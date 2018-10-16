@@ -7,7 +7,7 @@ public class LevelSix {
 	public static void LevelSix()
 	{
 		Object[] option = {"YES IM STILL OVERCOME WITH ANGER IM GONNA \r"
-				+ "\n KILL THEM AND GO BACK TO THE FUTURE", "No I'm better then this. r"
+				+ "\n KILL THEM AND GO BACK TO THE FUTURE!", "No I'm better then this. "
 						+ "\n They aren't worth it. I want to go back to the future \r"
 						+ "\n and be just as happy without them not as a muderer. "};
         int Choice = JOptionPane.showOptionDialog(null, "Your machines are made and ready to help you murder "
@@ -24,7 +24,7 @@ public class LevelSix {
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
         if (Choice == JOptionPane.YES_OPTION)
         {
-        	JOptionPane.showMessageDialog(null, "You lose, you have become a monster"
+        	JOptionPane.showMessageDialog(null, "You lose, you have become a monster."
         			+ "\n You will now imprisoned by the time police ");
         }
         else

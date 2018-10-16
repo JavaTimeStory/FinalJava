@@ -13,12 +13,13 @@ public class LevelThree {
         		JOptionPane.YES_NO_OPTION, 0, null, null, null);
         if (yesNo == JOptionPane.YES_OPTION)
         {
-        	JOptionPane.showMessageDialog(null, "Correct, you have passed this level");
+        	JOptionPane.showMessageDialog(null, "Correct, you have passed this level.");
         }
         else 
         {
-        	JOptionPane.showMessageDialog(null, "Wrong, You are a time traveler, Bye");
-        	System.exit(0);
+        	JOptionPane.showMessageDialog(null, "Wrong, You are a time traveler, Bye.");
+     		  SomethingNewOptions.YouLose.lose();
+     		  Main.main(null);
         }
 	}
 
