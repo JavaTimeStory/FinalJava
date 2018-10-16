@@ -40,7 +40,7 @@ public class LevelOne {
        	  else
        	  {
        		  SomethingNewOptions.YouLose.lose();
-              Main.main(null);
+              System.exit(0);
        	  }
         }
         else

@@ -29,7 +29,7 @@ public class LevelTwo {
 					"Your mom walked in and found you with a knife in your hand over the girls dead bodies.\r\n" + 
 					"Go to jail.");
      		  SomethingNewOptions.YouLose.lose();
-     		  Main.main(null);
+     		  System.exit(0);
 		}
 		else
 		{
@@ -49,7 +49,7 @@ public class LevelTwo {
 					"Death box",
 					JOptionPane.ERROR_MESSAGE);
      		  SomethingNewOptions.YouLose.lose();
-     		  Main.main(null);
+     		  System.exit(0);
 		}
 		else
 		{
