@@ -1,13 +1,16 @@
 package Game;
 
 import javax.swing.JOptionPane;
+
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.UIManager;
 
 public class LevelTwo {
 
 	private static final Object[] SecontOP = null;
 
-	public static void LevelTwo() 
+	public static void LevelTwo() throws InterruptedException 
 	{
 		
 		Object[] options = {"Run in and murder them all!", 
@@ -49,6 +52,7 @@ public class LevelTwo {
 					"Death box",
 					JOptionPane.ERROR_MESSAGE);
      		  SomethingNewOptions.YouLose.lose();
+     		  TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
 		}
 		else
