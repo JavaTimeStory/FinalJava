@@ -8,16 +8,10 @@ public class LevelOne {
 
 	public static void LevelOne() 
 	{
-		String chipChoice;
 		
 		Random rand = new Random();
 		
      	  int E = rand.nextInt(2) + 1;
-        
-		chipChoice = JOptionPane.showInputDialog(null,
-		        "What Is Your Favorite chip?",
-		        "A Questioning Box",
-		        JOptionPane.QUESTION_MESSAGE);
 		
         JOptionPane.showMessageDialog(null, "Hello and welcome to... ",
        		 "A Welcoming box", 
@@ -45,7 +39,8 @@ public class LevelOne {
        	  }
        	  else
        	  {
-       		  System.exit(0);
+       		  SomethingNewOptions.YouLose.lose();
+              Main.main(null);
        	  }
         }
         else
@@ -59,7 +54,6 @@ public class LevelOne {
            		  		+ "\njail for the rest of your life. ",
            		  		"An Evil Box",
            		  		JOptionPane.ERROR_MESSAGE);
-        		LevelTwo.LevelTwo(chipChoice);
         	}
         	else
         	{
@@ -67,7 +61,6 @@ public class LevelOne {
         				+ "Lets begin the game.",
         				"A Continuation box",
         				JOptionPane.PLAIN_MESSAGE);
-        		LevelTwo.LevelTwo(chipChoice);
         	}
         }
 		

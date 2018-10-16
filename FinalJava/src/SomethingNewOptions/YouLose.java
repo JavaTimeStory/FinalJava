@@ -21,7 +21,7 @@ public YouLose() {
     setVisible(true);
   }
 
-  public static void main(String arg[]) {
+  public static void lose() {
     new YouLose();
   }
 }
