@@ -19,7 +19,7 @@ public class LevelSeven {
         if (FinalChoice == JOptionPane.YES_OPTION)
         {
         	SomethingNewOptions.TheEndFriends.End();
-        	Main.main(null);
+        	System.exit(0);
         }
         else
         {
