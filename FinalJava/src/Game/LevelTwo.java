@@ -14,12 +14,12 @@ public class LevelTwo {
 				"Walk in calmly and hand out the snacks and sit down."};
 		int firstOp = JOptionPane.showOptionDialog(null, "You are driving back from gas station to get snacks for "
 				+ "\n you and some of your close friends and as you walk in you hear your friends "
-				+ "\n talking. You hear Dianne talking about you saying " + "We should take the food and "
-						+ "\n just go home shes not good enough to be our friend and we all know that"
-				+ "\n Everyone bursts into laughter and Kat says " + "Shes not even a good friend she "
+				+ "\n talking. You hear Dianne talking about you saying " + " \"We should take the food and "
+						+ "\n just go home shes not good enough to be our friend and we all know that.\""
+				+ "\n Everyone bursts into laughter and Kat says " + " \"Shes not even a good friend she "
 						+ "\n just does everything we want because shes so desperate to be our friend and "
 						+ "\n feel wanted. Haha she'd probably die without us. Maybe she should find "
-						+ "\n people who actually want to be her friend" + " What do you do?",
+						+ "\n people who actually want to be her friend.\"" + " What do you do?",
 						"An Option Box",
 						JOptionPane.YES_NO_OPTION,
 						JOptionPane.QUESTION_MESSAGE, null, options, options);
@@ -34,10 +34,10 @@ public class LevelTwo {
 		else
 		{
 			Object[] optionsTwo = {"Get up and pistol whip them all in the face.", 
-					"Yes I'm fine Kat thanks for asking"};
+					" \"Yes I'm fine Kat thanks for asking\""};
 		int SecondOP = JOptionPane.showOptionDialog(null, "Eat your snack while everyone is having "
 							+ "\n an amazing time and you are loathing in self hatred and hatred for them. Kat asks "
-							+ "\n you if your okay (even though shes the cause of why you are upset) "
+							+ "\n you if you are okay(even though shes the cause of why you are upset) "
 							+ "\n What do you say?",
 							 null, JOptionPane.YES_NO_OPTION,
 							JOptionPane.QUESTION_MESSAGE, null, optionsTwo, optionsTwo);

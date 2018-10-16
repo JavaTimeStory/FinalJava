@@ -6,10 +6,10 @@ public class LevelSeven {
 
 	public static void LevelSeven() 
 	{Object[] option = {"Restart game?", "End Game"};
-        JOptionPane.showMessageDialog(null, "Fake friends are like shadows: "
+        JOptionPane.showMessageDialog(null, "\"Fake friends are like shadows: "
         		+ "\n always near you at your brightest moments, "
-        		+ "\n but nowhere to be seen at your darkest hour True friends are like stars, "
-        		+ "\n you don't always see them but they are always there.");
+        		+ "\n but nowhere to be seen at your darkest hour true friends are like stars, "
+        		+ "\n you don't always see them but they are always there.\"");
         JOptionPane.showMessageDialog(null , "You go back to the future and find better friends "
         		+ "\n who love and appreciate you for who you are "
         		+ "\n and who you're going to be.<3");
