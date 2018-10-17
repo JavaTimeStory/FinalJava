@@ -44,6 +44,7 @@ public class LevelOne {
        		  SomethingNewOptions.YouLose.lose();
               TimeUnit.SECONDS.sleep(3);
               System.exit(0);
+
        	  }
         }
         else

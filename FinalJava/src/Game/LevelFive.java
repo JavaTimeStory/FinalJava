@@ -1,10 +1,12 @@
 package Game;
 
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.JOptionPane;
 
 public class LevelFive {
 
-	public static void LevelFive()
+	public static void LevelFive() throws InterruptedException
 	{
         JOptionPane.showMessageDialog(null, "Level Five");
         JOptionPane.showMessageDialog(null, "Time to build the machine.");
@@ -23,6 +25,7 @@ public class LevelFive {
         	JOptionPane.showMessageDialog(null, "It blows up in your face but oddly enough your"
         			+ "\n alive but you find time frozen, your left in this frozen time forever.");
      		  SomethingNewOptions.YouLose.lose();
+     		 TimeUnit.SECONDS.sleep(3);
      		 System.exit(0);
         }
 	}
