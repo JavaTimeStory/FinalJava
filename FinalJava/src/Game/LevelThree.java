@@ -1,10 +1,12 @@
 package Game;
 
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.JOptionPane;
 
 public class LevelThree {
 
-	public static void LevelThree() 
+	public static void LevelThree() throws InterruptedException 
 	{
         JOptionPane.showMessageDialog(null, "Level Three");
         
@@ -19,7 +21,8 @@ public class LevelThree {
         {
         	JOptionPane.showMessageDialog(null, "Wrong, You are a time traveler, Bye.");
      		  SomethingNewOptions.YouLose.lose();
-     		  Main.main(null);
+     		  TimeUnit.SECONDS.sleep(3);
+     		  System.exit(0);
         }
 	}
 

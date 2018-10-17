@@ -4,9 +4,11 @@ import javax.swing.JOptionPane;
 
 import java.util.Random;
 
+import java.util.concurrent.TimeUnit;
+
 public class LevelOne {
 
-	public static void LevelOne() 
+	public static void LevelOne() throws InterruptedException 
 	{
 		
 		Random rand = new Random();
@@ -40,7 +42,9 @@ public class LevelOne {
        	  else
        	  {
        		  SomethingNewOptions.YouLose.lose();
-              Main.main(null);
+              TimeUnit.SECONDS.sleep(3);
+              System.exit(0);
+
        	  }
         }
         else
