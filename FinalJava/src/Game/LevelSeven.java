@@ -12,7 +12,7 @@ public class LevelSeven {
         		+ "\n always near you at your brightest moments, "
         		+ "\n but nowhere to be seen at your darkest hour true friends are like stars, "
         		+ "\n you don't always see them but they are always there.\"");
-        JOptionPane.showMessageDialog(null , "You go back to the future and find better friends "
+        JOptionPane.showMessageDialog(null , "You go back to the future and find a better job and better friends "
         		+ "\n who love and appreciate you for who you are "
         		+ "\n and who you're going to be.<3");
         int FinalChoice = JOptionPane.showOptionDialog(null, "Would you like to play again?\r\n",  
