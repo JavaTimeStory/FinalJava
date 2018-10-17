@@ -18,14 +18,16 @@ public class LevelSeven {
         int FinalChoice = JOptionPane.showOptionDialog(null, "Would you like to play again?\r\n",  
         		"Restart Box",
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
+        int score = 0;
         if (FinalChoice == JOptionPane.YES_OPTION)
         {
+        	score = score + 1;
         	TimeUnit.SECONDS.sleep(3);
         	Main.main(null);
         }
         else
         {
-        	JOptionPane.showMessageDialog(null, "You Failed Times");
+        	JOptionPane.showMessageDialog(null, "You Beat The Game" + score + "Times");
         	TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
         }
