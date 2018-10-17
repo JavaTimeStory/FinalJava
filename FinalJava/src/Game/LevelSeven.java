@@ -28,6 +28,7 @@ public class LevelSeven {
         else
         {
         	JOptionPane.showMessageDialog(null, "You Beat The Game" + score + "Times");
+        	 SomethingNewOptions.TheEndFriends.End();
         	TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
         }
