@@ -1,10 +1,12 @@
 package Game;
 
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.JOptionPane;
 
 public class LevelSeven {
 
-	public static void LevelSeven() 
+	public static void LevelSeven() throws InterruptedException 
 	{Object[] option = {"Restart game?", "End Game"};
         JOptionPane.showMessageDialog(null, "\"Fake friends are like shadows: "
         		+ "\n always near you at your brightest moments, "
@@ -16,15 +18,20 @@ public class LevelSeven {
         int FinalChoice = JOptionPane.showOptionDialog(null, "Would you like to play again?\r\n",  
         		"Restart Box",
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
+        int score = 0;
         if (FinalChoice == JOptionPane.YES_OPTION)
         {
-        	SomethingNewOptions.TheEndFriends.End();
-        	System.exit(0);
+        	score = score + 1;
+        	TimeUnit.SECONDS.sleep(3);
+        	Main.main(null);
         }
         else
         {
+        	JOptionPane.showMessageDialog(null, "You Beat The Game" + score + "Times");
+        	TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
         }
+        ///EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 	}
 
 }
